@@ -3,7 +3,7 @@
 
 ## 一、在server端 ##
 
-### (防护墙设置为trusted) ###
+### (防火墙设置为trusted) ###
 
     [root@server0 ~]# firewall-cmd --set-default-zone=trusted
 ![](https://i.imgur.com/QDyVQRO.png)
@@ -68,7 +68,7 @@
 ##  ##
 ## 二、在desktop端 ##
 
-### (防护墙设置为trusted) ###
+### (防火墙设置为trusted) ###
 
 ### 1. 安装软件包 ###
 	[root@desktop0 ~]# yum -y install iscsi(tab)  
